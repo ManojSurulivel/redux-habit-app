@@ -25,10 +25,19 @@ git clone https://github.com/ManojSurulivel/redux-habit-app.git
 
 cd habit-tracker-materialui  
 
-# Install Dependencies
+# Install Dependencies:
+
 npm create vite@latest
 
-project: redux-habit-tracker
+project: redux-habit-app
+
+=> React
+
+=>TypeScript
+
+npm i axios react-redux @reduxjs/toolkit react-router-dom 
+
+npm install @mui/material @emotion/react @emotion/styled
 
 npm run dev
 
