@@ -1,5 +1,3 @@
-### Habit Tracker App
-
 ### Below is a sample README.md file for a Habit Tracker App built with TypeScript, React, Redux Toolkit, and Material-UI:
 
 # Habit Tracker App
@@ -23,7 +21,7 @@
 
 # Clone the Repository
 
-git clone https://github.com/your-username/habit-tracker-materialui.git  
+git clone https://github.com/ManojSurulivel/redux-habit-app.git  
 
 cd habit-tracker-materialui  
 
@@ -39,19 +37,31 @@ Access the app at http://localhost:5173/
 # Folder Structure
 habit-tracker-materialui/  
 ├── src/  
+
 │   ├── components/                # Reusable UI components (e.g., HabitCard, FormModal)
+
 │         ├── add-habit-form.tsx   # Pages (e.g., add-habit-form, habit-list)
+
 │         └── habit-list.tsx
+
 │         └── habit-stats.tsx
-│   ├── store/               
+
+│   ├── store/
+
 │         ├── habit-slice.js       # Redux slices (e.g., habitsSlice)
+
 │         └── store.js             # Redux store configuration 
+
 │   ├── App.tsx                    # Main App component  
+
 │   ├── index.tsx                  # Entry point  
-│   ├── store.ts             
+
 ├── README.md                      # Project documentation  
-├── package.json                   # Dependency and scripts  
+
+├── package.json                   # Dependency and scripts 
+
 └── tsconfig.json                  # TypeScript configuration 
+
 └── vite.config.ts
 
 # State Management (Redux Toolkit)
@@ -102,6 +112,9 @@ web applications.
 ## This README.md provides a detailed yet concise overview of the Habit Tracker App, making it easy for others to understand and 
 
 ## use the project. You can adapt this to fit your app's specific features and design.
+
+
+
 
 
 
